@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+
+    tools:context=".StratSix">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A First-person shooter is a complex type of video game, in which you have to perform a lot of actions within seconds of each other - and sometimes, the differences between winning and losing are just mere milliseconds. The biggest difference between the touchscreen of PUBG Mobile and normal PUBG is probably the way you control your character - the keyboard and mouse of the normal PUBG make uses of at least 7 fingers and can go up to 10.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:srcCompat="@drawable/s61" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="While rather hard to learn, the main advantage that the 4 finger claw has over others is that the technique would allow you to jump, look, move around and shoot at the same time. Because of that, it is probably correct to say your ability to react and play the game, in general, would be increased with 4 fingers claw setting. A lot of pro players use this - notably Mortal from SouL, one of the most successful PUBG Mobile Squad in India.
+
+
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Before going in, you might want to enable the Peak and Fire along with the Peak and Open Scope so that you could shoot at your target while staying behind a cover. Gyroscope is also a great feature as well. This setup would help you perform a lot better in close-quarter fights and spray down your opponents with ease. Your right thumb would cover the aiming part while your right index would do the peak, jump, and crouch. The left side would cover movement and shooting - the analog should be kept the same, as it is really hard to train yourself to be familiar with it.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4-finger claw sensitivity settings for non-gyroscope user:
+No Scope: 80%
+Aim Assist, Holographic, Red Dot, 2x Scope: 60%
+3x: 36%
+4x: 20%
+6x: 18%
+8x: 8%
+4-finger claw sensitivity settings for gyroscope user:
+Aim Assist, Holographic, Red Dot, 2x Scope: 300%
+3x: 240%
+4x: 225%
+6x: 200%
+8x: 80%
+You also need to modify your ADS sensitivity to 1 when using the gyroscope.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

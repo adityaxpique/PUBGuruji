@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffd700"
+
+    android:layout_height="match_parent"
+    tools:context=".WeaponsFour">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="M762 vs AKM PUBG, which AR gun is better? To answer this question, let’s do a brief comparison
+between these two powerful assault rie guns in PUBG Mobile. This article will compare these two
+weapons in some major and signicant criteria, such as damage, recoil, eective range,
+attachments, etc. Here we go!
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                app:srcCompat="@drawable/s51" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="M762 is also called Beryl in PUBG. Both AKM and Beryl use 7.62 ammo. In addition, these two
+guns are very powerful and eective in close combat and medium-range combat. Besides, players
+can use similar attachments for both Beryl and AKM, such as mag, scope, and muzzles. In
+addition, M762 and AKM have the same ammo speed of 715m/s. The eective ranges of these
+two weapons are similar (from 0-1000m).
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Next, AKM and Beryl have the same number of bullets in an ammo load (30 without the mag and
+40 with extended mag). Besides, the reloading speed of these two guns is also the same (2.9s
+without quickdraw mag, and 2.25s with a quickdraw mag). Moreover, the spawning rate of AKM
+and Beryl in all four maps of the game is not dierent. You can easily nd an AKM or a Beryl when
+landing on Miramar, Erangel, Sanhok, or Vikendi.
+If you are a fan of this shooting game, you will also know that AKM and Beryl M762 have great
+recoil. So, it requires excellent skills from PUBG players. These two guns are more dicult to
+control than the iconic AR gun: M416 in this game. Therefore, you need to make sure that you
+practice shooting with AKM and M762 well enough before engaging in any combat.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Damage per second (DPS) is another criterion to compare M762 and AKM. Although AKM has
+bigger damage, this AR gun has lower DPS than Beryl. The DPS of AKM is 490 while Beryl M762
+causes 546 DPS. It’s because of the higher ring rate of the Beryl gun. Therefore, is the auto
+mode, M762 can be stronger than AKM of you can control it well and shoot correctly. But in a
+single ring mode, AKM is better.
+As mentioned in the rst criterion, Beryl M762 has a higher ring rate than AKM. The gap time
+between the rst and the second bullet of Beryl is 0.086s while in AKM, it takes 0.1s. It means that
+the ring rate of AKM is 600 bullets per minute. Meanwhile, Beryl’s ring rate is up to 698 bullets
+per minute. That’s also the reason why M762’s recoil is larger than AKM in auto mode. But in the
+single mode, AKM is more difficult to control.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Comparing M762 vs AKM PUBG in the ring mode, it seems that M762 surpasses AKM. There are
+only two ring modes in AKM, including single and auto. But Beryl M761 has another Burst ring
+mode beside Single and Auto as normal. In Burst Mode, the gun releases three bullets per shot.
+And the gap time between each bullet is 0.012s.
+In this criterion, Beryl M762 once again surpasses AKM when it has one more attachment slot
+than AKM. There are only three attachment slots in AKM, including mag, muzzle, and scope.
+Meanwhile, the Beryl M762 has four slots, including three slots like in the AKM and a slot for the
+grip. You are recommended to attach a vertical grip to this gun to reduce the recoil and control it
+better."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The iron sight of the AKM is easier to use than M762. It’s clearer with the less covered areas when
+you aim with the iron sight. But in Beryl M762, the covered area is pretty larger. So, if you cannot
+nd a scope or red dot to attach, you should use AKM for better aiming with an iron sight.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

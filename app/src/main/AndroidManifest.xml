@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.freakik.pubgurujitest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DEVELOPED"></activity>
+        <activity android:name=".StratSeven" />
+        <activity android:name=".StratSix" />
+        <activity android:name=".StratFive" />
+        <activity android:name=".StratFour" />
+        <activity android:name=".StratThree" />
+        <activity android:name=".StratTwo" />
+        <activity android:name=".StratOne" />
+        <activity android:name=".Strategies" />
+        <activity android:name=".WeaponsSix" />
+        <activity android:name=".WeaponsFive" />
+        <activity android:name=".WeaponsFour" />
+        <activity android:name=".WeaponsThree" />
+        <activity android:name=".WeaponsTwo" />
+        <activity android:name=".WeaponsOne" />
+        <activity android:name=".Weapons" />
+        <activity android:name=".MapsSix" />
+        <activity android:name=".MapsFive" />
+        <activity android:name=".MapsFour" />
+        <activity android:name=".MapsThree" />
+        <activity android:name=".MapsTwo" />
+        <activity android:name=".MapsOne" />
+        <activity android:name=".Maps" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

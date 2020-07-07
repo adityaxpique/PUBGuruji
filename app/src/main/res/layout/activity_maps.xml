@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+
+    tools:context=".Maps">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+
+        android:text="DROPS FOR RANK PUSH"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+
+        android:text="VIKENDI SECRET CAVE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+
+        android:text="BEST LANDING PLACES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:text="HOW TO CAMOUFLAGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+
+        android:text="TDM TIPS AND TRICKS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="38dp"
+
+        android:text="FACTS ABOUT BLUEZONE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/buttonback"
+        android:textColor="#3c5aa6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:srcCompat="@drawable/logo3__2_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

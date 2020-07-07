@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffd700"
+    android:layout_height="match_parent"
+    tools:context=".WeaponsOne">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PUBG Mobile offers a realistic shooting experience that makes players feel like they are on a real battlefield. But these realistic elements also make the game much harder, especially when it comes to sniping. That's also why we feel so great whenever we are able to land a headshot and killed a player from miles away. That is a unique feeling that no other battle royale games can offer, even if it's Call of Duty: Mobile or Free Fire. All the maps of PUBG Mobile are so huge that you can easily have a chance to use your sniper and get that joy
+However, most PUBG Mobile players aren't good at sniping because they don't what they need to do. So here in this article, we will show you all the tips you need to know to become a great sniper in PUBG Mobile
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="231dp"
+                app:srcCompat="@drawable/w11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The first and foremost thing you need to do if you want to go around and snipe other people is having good loot. Sniper Rifles, in general, are rarer than other weapons such as Assualt Rifles and SMGs. On top of that, you need a big scope in order to make your sniper useful. You can't go around with your Kar98 with Red Dot to fight people. Sometimes your opponent wins not because they are a better sniper but because they have a Level 3 Helmet and a Ghillie suit.
+You need at least a 4x scope or 3x scope for a start. But big scopes are just as rare as Sniper Rifles in PUBG Mobile if not even rarer. So here are all the best places in PUBG Mobile for you to find a good Sniper Rifle and a decent scope on Erangel.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="216dp"
+                app:srcCompat="@drawable/w12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="While sniping, your position is just as important as your aiming. A good position will keep you safe from other people while focusing on your target. It should also give you a clear vision of your target to make your shots. Normally, the ideal locations would be in a building or a high position such as on a hill, on the roof of a building. There are also special places on the maps that benefit snipers such as on bridges, where players have only 1 road to go. Buildings near the edge fo Pochiki are another example as you will be able to catch players who are trying to run out of the city in the open field.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="332dp"
+                app:srcCompat="@drawable/w13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A good sniper will never give another sniper an easy kill. When you are aiming at your target, you are likely to be the target of other people as well. Another sniper might see you by accident and wait for you to stand still to kill you. You should never let that happen. Take every chance you have to wiggle around and make yourself a hard target for other players.
+
+You also should consider changing your position to another location when the enemy spots you or makes it into a safe cover. The element of surprise will be your best friend. You will have a second chance to kill them when they are hiding behind their cover, thinking that they know where you are.
+You should never peek at the same position, especially in a sniper battle. Good enemies will blow your head off the second time you peeks at the spot with their gun already aiming there. Choose another window or floor to shoot if you are in a building or alternate between left and right if you are behind a tree. Also, don't make long peeks in a sniper battle. If you miss a shot, that is fine because you can always take another shot. But if you won't be able to take any shot at all if you peek too hard and die.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="These elements were added to PUBG Mobile to make the game more realistic and make sniping much more satisfying. Within 100 meters range, these things don't really matter. But they will start to get more significant as the range get bigger.
+Each weapon has a different bullet speed and bullet drop. Assault Rifles, DMRs, and Sniper Rifles have the most bullet speed and the leat bullet drop so they are all viable options to snipe people. You will have to learn these two yourself through your own experience as there are too many things in PUBG Mobile to make it simple.
+Learning about bullet drop will mostly help you hit your shots on a stationary target and kill them quickly while learning how to lead your shots will help you hit a moving target from far away. The best way is to head to the Training Ground and start practicing your shot.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Use other items and weapons you have to give yourself an easier time killing the enemy. A Smoke Grenade will help you rotate to another place safely and flank your opponent. A Frag Grenade or a Molotov will force your target out of their cover for you to snipe them. An SMG or Assualt Rifle will help you finish your kill easily if your first shot didn't kill them. It doesn't matter if you kill a player with your sniper or whatever.
+
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

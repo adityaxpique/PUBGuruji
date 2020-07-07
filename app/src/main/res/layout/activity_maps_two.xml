@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+
+    tools:context=".MapsTwo">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="PUBG Mobile is one of the most competitive mobile games in India, with a huge Esports scene. It is pretty hard to rank up effectively in the game unless you are super good or dedicated - and it is always good to get some head-up. In this guide, we would provide you with some tips on the best map in PUBG Mobile and how to rank up faster in each map.
+There are four maps available currently available in PUBG Mobile - each of these maps is distinctly unique from each other - you would have to approach the game a little bit differently in each map.
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:srcCompat="@drawable/m21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PUBG Mobile's Erangel is the first playable map in the game - the classic experience and the most popular map in all PUBG versions. The grassland of Erangel is spread out in an 8km x 8 km grid. While this is the same as Miramar, the playable range of Erangel is actually smaller because a lot of the map is covered in water. As the fights happen in such a big area, it is actually not that hard to get a higher rank, given that you have a plan and some luck on your side.
+Picking the right drop location is the key - you would more often than not fight on the longer-range open field in this map. It is best to use a vehicle to move around instead of just walking. Below are some of the best loot places that you should consider clearing out. It is important to be careful around these areas, as they are swarmed with players early on.
+School: Middle of the map, better headstart for the safe zone. Decent loot, mostly level 2.
+Mylta Power: similar to the Military base - this location has sniper attachments and level 3 gears.
+Pochinki and Prison are great landing locations as well."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The second playable map in PUBG Mobile, Miramar is a desert/mountainous region, with the biggest play area in the game despite also being 8x8. It is rather hard to avoid actions in this map, as the sandy environment usually lack covers. You would more often than not having to get into buildings to actually avoid actions. Landing on a farther location and make your way in is the best method - you would probably need a vehicle for this, however.
+As the map is pretty big, you would probably have to secure a vehicle right away after looting to zip to the safe zone. Below are some of the best loot places on the map.
+Prison: Located on a small island on the southwest corner, the prison has amazing drops and is pretty far away from the center of the action.
+Pecado: Located in the middle of the map - this location is best for players who prefer to fight and not having to chase the safe zone.
+Campo Militar: Located in the northeast corner - this is the same as Prison, with good drops placed in a remote location.
+Hacienda Del Patron and Planta Potabilizadora are great spots also."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:srcCompat="@drawable/m22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This small map should be played very differently to other PUBG Mobile maps, as its smaller 4x4 size would ensure faster pace gameplay and close quarter combat. In Sanhok, lower range weapons can actually be useful now. In this map, your best bet is to camp somewhere inside a building and be flexible with weapons. Land on the edge of the map and make your way in eventually, as the island is pretty small.
+Sanhok is inspired by the Southeast Asian rainforests: lush greenery that's dotted with buildings, military bases and ruins alongside an expansive river and road network that can support boats and fast vehicles. Below are some of the most important drop locations on the Sanhok map.
+Ruins: a lot of loot are divided between multiple floors - this makes the ruins a hotly contested location during all period of the game.
+Camp Alpha, Bravo and Charlie: While these camps do not have a high amount of loot, the quality of spawn items in here is unreal.
+The Docks and Camp Charlie are pretty great as well."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:srcCompat="@drawable/m23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Vikendi is a snow-themed map of PUBG Mobile - the fourth one to be introduced and probably the least popular. The snow island is bigger than Sanhok, at 6x6, but smaller than Miramar and Erangel. This location is based on an isolated Northern resort base.
+Vikendi is a snow-themed map of PUBG Mobile - the fourth one to be introduced and probably the least popular. The snow island is bigger than Sanhok, at 6x6, but smaller than Miramar and Erangel. This location is based on an isolated Northern resort base.
+Cosmodrome: a great location with a huge amount of loot waiting - you would have to leave this a little bit earlier, however, as it is pretty far from the center.
+Goroka: the map's biggest city - filled with decent quality loot. This location is at the center of the map so you would have a harder time against enemies early on.
+Dobro Mesto, Podvosto and Volnova are pretty good locations as well."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:srcCompat="@drawable/m22" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+
+    tools:context=".MapsThree">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Vikendi is the fourth playable map in PUBG, and it comes with a distinct theme comparing to the other three locations. The zone is an isolated resort island in the northern part of the Adriatic Sea. There are a huge number of locations that you can explore in this 6x6 map, especially the PUBG Vikendi secret cave. The map has been available for over a year now, on both PUBG and its mobile version.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The PUBG Vikendi secret cave can be accessed through three separate spots, however, all of them are covered with rocks. The only way to get through those entrances and get access to the site is to remove the rubble with either a grenade or vehicle ramming. After the rocks have been cleared up, a small tunnel would be revealed. PUBG Mobile Vikendi secret cave would still be pretty hard to see, however, as the hole actually blends in with the rock perfectly. You would hardly be able to distinguish the thing from the side of a mountain."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/v1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This cave is pretty much a treasure trove full of loot – a reward for players who managed to solve its secrets. A lot of loot types are included, from armors and guns placed on top of floor and barrels to weapon mods and ammunition. The true treasure in this Vikendi secret cave PUBG Mobile, however, are the rows of red crates that was supposed to only be available via airdrops. They contain high-quality gears that would definitely be able to increase players’ chance of victory.
+While getting to this PUBG Vikendi secret cave is already pretty difficult, getting there while under attacks from other players is even harder. While getting inside the cave first can be pretty rewarding, sometimes it is best to just come later and ambush the looting players and take the equipment from them instead. Due to the high tier of the loot, whoever comes out of this contest alive would have the best gear out in all of Vikendi.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

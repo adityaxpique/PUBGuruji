@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+
+    tools:context=".StratFive">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sometimes you just want to have fun playing PUBG Mobile… however, sometimes you crave a real challenge. Amongst all game modes in PUBG Mobile, there is one mode called “solo vs squad” in which you would have to go against teams instead of just ‘everyone for themselves’ in the normal PUBG style. While solo against multiple teams might sound challenging, it is actually a great way to boost your kill score, as enemies will not kill each other fast enough.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The most important thing to do in this mode is to try to not draw attention to your current position. Don’t land on any hot spots – it is best to hit the ground far away from the flight path on some small unnamed locations. While a completely remote building is nice, you would ideally want to get some kills before the squad completed looting: your landing spot should be adjacent to a big town/hot spot. Squads often rely on their numbers and picked some of the hottest zone possible.
+Avoid staying out in the open for a longer period and make sure you always have cover spots in the vicinity – the firepower of a squad is immense and you don’t want all four of them to notice you. Camp somewhere, wait for unsuspecting squads, grab one or two kills then retreat. It is best to avoid staying in places without a good retreat route, as other members of the squad can finish you off while you are reloading.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="In this mode, it is very important that you detect the squad first before your cover is blown – it would be harder for them to spot you since you are alone. Squads tend to stay in the vicinity of each other and prone to panic against sudden attacks – if you are quick, you could be able to score more than one kill in each engagement.
+If you manage to knock down at least one member of a squad, you can stop firing immediately, reload and bait for their teammates to come out and revive the downed. If your location is known, you can even use that time to reposition yourself for another attack. Grenades can either work as an AOE damaging ability or a distraction tool – you can throw a grenade in another direction to distract your enemies.
+
+Don’t try to finish a squad member unless you have killed all their teammates. Those few seconds are enough for them to come back and finish you off.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="If a squad knows your position – your best bet would probably be running away. However, if you are confident in your ability, you could try to push them back. If more than two people of a squad have spotted your location – it is best to try to knock at least one of them down so that they have to work on reviving, leaving only two players for you to deal with.
+Use this chance to either flank or rush them – use a smoke grenade if possible. Try to keep at least one of the players knocked down, as the moment they could go full tilt against you, there is no chance but to retreat. Try to have one player downed constantly – the trick is to attack the downed person as soon as he gets up because the guy would have the lowest HP in the group.
+
+The enemies could just go against you in a team of three and keep their teammate downed for a while, however, so this strategy is not without risks. High damage weapons are key in this mode. Combo the UMP with a sniper/marksman rifles/AKM.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Being stealthy is super important – you need to avoid being seen or heard in order to get any chance at all, as you are doomed the moment all four people focus on your location. Take a mental image of the flight path so that you can stay as far as possible from it while moving after the circle. Stay at the borders and avoid directly going inside hot spots as much as you could.
+Position yourself in a way that you can catch squads off guards while they are moving around the spots. Don’t try to get the supply drops as you don’t have the numbers to go against them – try to ambush when they go for the crate instead. Keep a watch from a nearby vantage point.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is the most tricky part of this mode. In this phase, you must hide at the edge of the circle and let the squads fight each other to the death. As long as you managed to do that, your opponents at the end would only be like 3 or 4 damaged people, which is not too hard to take down. Don't engage even if you spot players - only do that if you have no other choice.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/s51" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

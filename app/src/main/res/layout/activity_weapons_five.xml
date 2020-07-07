@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffd700"
+
+    android:layout_height="match_parent"
+    tools:context=".WeaponsFive">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Guns are the most important thing in every shooter game, and PUBG Mobile is no different. However, unlike other games, guns in PUBG often spawn on the map in their uncompleted form – sometimes you have to gather a big array of attachments or at least a scope to unlock a gun’s true potential. In this PUBG Mobile attachments guide, we would list out all the weapon mods in the game, their properties, and which weapon should you equip them on.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                app:srcCompat="@drawable/w51" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Muzzle: Reduce the recoil of equipped weapons, muffle the sound of bullet fire and hide muzzle flash when firing.
+Sight/Scope: Assist the players in aiming their weapons – the most important weapon modification in PUBG Mobile
+Grip: Reduce the vertical and horizontal recoil of equipped weapons. It is very important to get these for weapons like the SCAR-L, AUG, M416… and more.
+Magazine: Add extra bullets for each weapon reload – some mods also reduce weapon reload time.
+Stock: Reduce reload time and stabilize the weapon so that they would not shake too much when firing.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="432dp"
+                app:srcCompat="@drawable/w52" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A lot of guns in PUBG Mobile need attachments to actually work – for example, the Vector has a super small magazine size for an SMG, and without an extended magazine mod equipped, it would be only half as strong. The sniper rifles are literally unusable without a decent scope... recoil – heavy weapons require grip and maybe even a suppressor to actually work…etc. The most extreme example is probably the M416 - it is pretty much the most powerful weapon in the game if you managed to fill all of its mod slots.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="184dp"
+                app:srcCompat="@drawable/w53" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Muzzles are very important on long-ranged weapons in order to hide the direction of the assaulter so that targets would not be able to retaliate or get into cover effectively. It is very important for high damage/high range guns like DMR, Sniper Rifles, and a few Assault Rifles. Assault Rifles muzzle can be equipped for DMR.
+Overall, the compensators provide the best recoil reduction, both vertically and horizontally. Flash hiders also have that function in addition to removing the muzzle flash on firing. Lastly, the suppressor would dampen weapon sounds and hide muzzle flash – at the cost of weapon recoil reduction.
+
+Shotgun’s muzzles are somewhat special – both the choke and duckbill would not do anything to reduce recoil, muzzle flash, or weapon sounds – they would instead tighten the spread of the shotgun bullets, making long-range shots easier and close-range shot more accurate. A shotgun equipped with these can be a surprisingly powerful weapon in close quarters. It would deal much more damage, however, the users have to aim directly at the target while firing.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="122dp"
+                app:srcCompat="@drawable/w54" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Due to the nature of PUBG Mobile being a shooter without a keyboard and mouse system, scopes are super important. You pretty much can’t hip firing weapons – you have to scope in to do that.  These attachments are pretty much the most important items in the game, sometimes even more than a gun. A nice scope would also aid in scouting the area as well.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="390dp"
+                app:srcCompat="@drawable/w55" />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Grip attachments would provide a reduction in weapon recoil and an improvement in weapon stability. This would work in both single fire mode and full auto – which make a grip essential on any guns with heavy recoil.
+These grips are slightly different from each other, however. The thumb grip is probably the most useful one, as it allows you to open up your scope faster. It also reduces vertical recoil, similar to the vertical foregrip. Lastly, the angled foregrip would reduce horizontal recoil while the half grip and light grip would increase weapon stability in general.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="81dp"
+                app:srcCompat="@drawable/w56" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Stock attachment is a back rail mod that reduces the recoil of equipped weapons along with its stability and reloads time. These things are less compatible with normal weapons – in fact, the Tactical Stock can only be equipped on the Vector and M416.
+
+The Bullet loops can only be equipped on the Kar98k and Win94 – this is actually pretty OP, as a Kar98k with reduced reload time would be just as effective in killing as stronger sniper rifles. Lastly, the Cheek Pad can only go with DMR and Sniper Rifles – it further reduces recoils and improves the stability of those guns. It is best on DMRs, as you have to adjust your aim after firing while using Sniper Rifles anyway.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

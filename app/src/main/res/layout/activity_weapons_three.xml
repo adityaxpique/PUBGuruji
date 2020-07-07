@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+    tools:context=".WeaponsThree">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PUBG Mobile is an incredible game with a huge number of weapons for players to take advantage of. The thing that separates good players from mediocre ones is the ability to make the most out of the weapons they are given. While an Assault Rifle is the best choice, you would not be able to get your hand on one 100% of the time. If that happens, SMG or Submachine Gun is the second-best choice.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                app:srcCompat="@drawable/w31" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UZI is the king of hip-fire spray at close range if you have a decently accurate aim. The Micro Uzi can be further improved with a stock and extended magazine - with those two attachments equipped, the guy would become a wholly different weapon that can spew out the whole magazine in an outrageously short time.
+Overall, if you have the Uzi, your chances in close combat are really good, as you would be able to out spam every gun with minimal recoil and decent accuracy. The hard thing about this weapon is that you have to know how to use the Iron Sight, as it cannot be equipped with any sights attachments. A compensator can fit on the gun as well, but it is more or less unneeded.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                app:srcCompat="@drawable/w32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is probably the most used SMG in both PUBG Mobile and all other FPS. It has the highest effective range in its class - the thing is effective even in mid-range due to its higher damage and stability. While sniping with an SMG is not something you want to do, but the ability to spam bullets would make up for the lost damage from an assault rifle. The gun has a large magazine so you would have ample chances to do that.
+Attachments are not necessary on a UMP 45, however, getting some equipped is still pretty nice. You should try to get a vertical or angled grip, a suppressor and an extended quickdraw magazine for the best version possible of the gun.
+The gun has degraded after change of ammo."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                app:srcCompat="@drawable/w33" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The most damaging SMG - the Vector is the best choice for close quarter combat if you are unfamiliar with using other SMGs. It is the closest to an Assault Rifle, with a higher damage per hit than the other guns in the class. If you are accurate with your sprays, you can make short work of any targets in a close encounter.
+
+The weakness of this gun is that its magazine only has 19 bullets - you have to make every bullet count... or get an extended magazine mod. You don't really need anything else except for that attachment, but some more stuff like a different grip, barrel, stock, and sight would be nice. The Kriss Vector is best used with sight, but with some practice, you can definitely hip fire it.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The classic SMG that you could find in movies. The Tommy Gun has a huge clip size of fifty and the second-highest damage per bullet in the SMG class, and a decent fire rate as the cherry on top. This gun can be a decent option in squad mode in which you have to face multiple enemies in close-quarter combat.
+In that specific case, the 50 rounds magazine of the Tommy Gun would be the most effective. The weakness of this gun is that you would not be able to equip any sight - you have to practice your ability to do hip fire or iron sights."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

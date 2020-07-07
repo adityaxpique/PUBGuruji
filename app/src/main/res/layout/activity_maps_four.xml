@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+    tools:context=".MapsFour">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Erangel is the first map in PUBG Mobile which has been improved in the latest update 0.17.5. There are some hotspots for pro players to have good loot, such as Pochinki, Georgopol, Sosnovka Military Base, and Novorepnoye. You can get a lot of good supplies in these places, such as M416, AKM, Mini-14, Kar98k, and many good attachments. Moreover, helmet, armor, and backpack level 2 are easy to find there.
+If you don’t want to engage in early combat but still get good loot, you should land in School and Prison. These places are pretty rich with enough supplies for a squad. Or else, you can begin your match in two low-risk but still rich spots: Lipovka and Yasnaya Polyana."
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="If you want to push your rank and don’t want to take risks, you should avoid high-risk spots, such as Campo Militar, Los Leones, and Pecado. Pecado is the best place to loot in this desert map, but it’s also the most high-risk place with lots of pro players and early combat. Impala and San Martin are two medium and low-risk places full of good loot for you to start the game. You can find a full level-2 set of helmet, vet, and backpack.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The best places to loot in Sanhok are Bootcamp, Paradise Resort, Ruins, and Camp Charlie. There is so much good loot in these places that you cannot loot all of them even when you have a backpack level 3. However, these places are high-risks spots with lots of players landing here. If you want to start the game slowly and carefully, you can land on Narip, Camp Bravo, or Pai Nan. These medium-risk places have enough supplies for one to two squads.
+
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Just like other maps, each location in the map has their own pros and cons. For example, few locations have better loot, while others might have a better hiding place. The new Vikendi map has 27 location listed in it. For better loot and vehicles, places like Hot Spring, Villa, Tovar, Volnova, Vihar and Mohvatra are one of the most crowded locations of the map. But there's one thing to keep in mind that these are also one of the prime places for other players as well. It is already clear that Vikendi map has more of SMG guns compared to assault rifles especially Micro-Uzi and Level 3 armours are mostly found in drops in this map.
+"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
